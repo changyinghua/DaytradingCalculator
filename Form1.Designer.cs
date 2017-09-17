@@ -38,8 +38,8 @@
             // 
             // calculateButton
             // 
-            this.calculateButton.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.calculateButton.Location = new System.Drawing.Point(10, 182);
+            this.calculateButton.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.calculateButton.Location = new System.Drawing.Point(5, 171);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(75, 43);
             this.calculateButton.TabIndex = 5;
@@ -50,37 +50,38 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.Location = new System.Drawing.Point(8, 93);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 24);
+            this.label2.Size = new System.Drawing.Size(42, 21);
             this.label2.TabIndex = 2;
             this.label2.Text = "張數";
             // 
             // inforListBox
             // 
-            this.inforListBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.inforListBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.inforListBox.FormattingEnabled = true;
-            this.inforListBox.ItemHeight = 20;
-            this.inforListBox.Location = new System.Drawing.Point(247, 10);
+            this.inforListBox.ItemHeight = 21;
+            this.inforListBox.Location = new System.Drawing.Point(204, 10);
             this.inforListBox.Name = "inforListBox";
             this.inforListBox.ScrollAlwaysVisible = true;
-            this.inforListBox.Size = new System.Drawing.Size(472, 364);
+            this.inforListBox.Size = new System.Drawing.Size(510, 466);
             this.inforListBox.TabIndex = 6;
+            this.inforListBox.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.inforListBox_DrawItem);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label3.Location = new System.Drawing.Point(6, 131);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 24);
+            this.label3.Size = new System.Drawing.Size(74, 21);
             this.label3.TabIndex = 4;
             this.label3.Text = "每檔價位";
             // 
             // countTextBox
             // 
-            this.countTextBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.countTextBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.countTextBox.Location = new System.Drawing.Point(69, 90);
             this.countTextBox.Name = "countTextBox";
             this.countTextBox.Size = new System.Drawing.Size(100, 29);
@@ -88,7 +89,7 @@
             // 
             // intervalTextBox
             // 
-            this.intervalTextBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.intervalTextBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.intervalTextBox.Location = new System.Drawing.Point(98, 129);
             this.intervalTextBox.Name = "intervalTextBox";
             this.intervalTextBox.Size = new System.Drawing.Size(100, 29);
@@ -97,10 +98,10 @@
             // buyRadioButton
             // 
             this.buyRadioButton.AutoSize = true;
-            this.buyRadioButton.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buyRadioButton.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.buyRadioButton.Location = new System.Drawing.Point(12, 10);
             this.buyRadioButton.Name = "buyRadioButton";
-            this.buyRadioButton.Size = new System.Drawing.Size(66, 28);
+            this.buyRadioButton.Size = new System.Drawing.Size(60, 25);
             this.buyRadioButton.TabIndex = 0;
             this.buyRadioButton.Text = "買進";
             this.buyRadioButton.UseVisualStyleBackColor = true;
@@ -109,10 +110,10 @@
             // 
             this.sellRadioButton.AutoSize = true;
             this.sellRadioButton.Checked = true;
-            this.sellRadioButton.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.sellRadioButton.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.sellRadioButton.Location = new System.Drawing.Point(84, 10);
             this.sellRadioButton.Name = "sellRadioButton";
-            this.sellRadioButton.Size = new System.Drawing.Size(66, 28);
+            this.sellRadioButton.Size = new System.Drawing.Size(60, 25);
             this.sellRadioButton.TabIndex = 1;
             this.sellRadioButton.TabStop = true;
             this.sellRadioButton.Text = "賣出";
@@ -120,19 +121,19 @@
             // 
             // priceTextBox
             // 
-            this.priceTextBox.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.priceTextBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.priceTextBox.Location = new System.Drawing.Point(69, 52);
             this.priceTextBox.Name = "priceTextBox";
-            this.priceTextBox.Size = new System.Drawing.Size(100, 27);
+            this.priceTextBox.Size = new System.Drawing.Size(100, 29);
             this.priceTextBox.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.Location = new System.Drawing.Point(8, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 24);
+            this.label1.Size = new System.Drawing.Size(42, 21);
             this.label1.TabIndex = 10;
             this.label1.Text = "價格";
             // 
@@ -140,7 +141,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(731, 395);
+            this.ClientSize = new System.Drawing.Size(726, 500);
             this.Controls.Add(this.priceTextBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.sellRadioButton);
