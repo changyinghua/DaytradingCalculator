@@ -77,12 +77,12 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 21);
             this.label3.TabIndex = 4;
-            this.label3.Text = "每檔價位";
+            this.label3.Text = "五檔價位";
             // 
             // countTextBox
             // 
             this.countTextBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.countTextBox.Location = new System.Drawing.Point(69, 90);
+            this.countTextBox.Location = new System.Drawing.Point(98, 90);
             this.countTextBox.Name = "countTextBox";
             this.countTextBox.Size = new System.Drawing.Size(100, 29);
             this.countTextBox.TabIndex = 3;
@@ -122,7 +122,7 @@
             // priceTextBox
             // 
             this.priceTextBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.priceTextBox.Location = new System.Drawing.Point(69, 52);
+            this.priceTextBox.Location = new System.Drawing.Point(98, 52);
             this.priceTextBox.Name = "priceTextBox";
             this.priceTextBox.Size = new System.Drawing.Size(100, 29);
             this.priceTextBox.TabIndex = 2;
